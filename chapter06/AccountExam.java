@@ -9,7 +9,7 @@ public class AccountExam {
 		Scanner sc = new Scanner(System.in);
 		
 		//계좌 저장
-		Account[] accounts = new Account[100];
+		Account[] accounts = new Account[100]; //
 		int accountCount = 0; //저장된 계좌
 		
 		while(run) {
@@ -32,14 +32,14 @@ public class AccountExam {
 				int balance = Integer.parseInt(sc.nextLine());
 				
 			// Account 객체 생성 - 배열에 넣으려고 만듦
-        Account acc = new Account();
+        Account acc = new Account(); //계좌 번호 생성
         acc.setAno(ano);
         acc.setOwner(owner);
         acc.mplus(balance);
 
         // 배열에 추가
-        accounts[accountCount] = acc;
-        accountCount++;
+        accounts[accountCount] = acc; //acc를 accounts에 넣는것
+        accountCount++; 
 
         System.out.println("계좌가 생성되었습니다!");
         break;
