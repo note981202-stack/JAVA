@@ -1,9 +1,9 @@
 package khw;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class AddressDao { //저장 하기 위함
-	//배열크기 : 20
-	//친구객체: 20명 저장
-	//Main으로 전달
 	
 //20명을 저장할 배열
 	Address[] friends = {
@@ -30,6 +30,11 @@ public class AddressDao { //저장 하기 위함
 
 		 
 	}; //friends end
+	
+			
+//	List<Address> list = new ArrayList<>(); // 리스트 생성
+//		List<Address> datas = new ArrayList
+	
 	
 	//main으로 전달하려고 함
 		public Address[] selectAll() {

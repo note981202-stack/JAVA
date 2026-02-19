@@ -27,35 +27,34 @@ public class Address {
 //		public void showInfo() {
 //		}
 
+		
+		//게터
 		public String getName() {
 			return name;
 		}
-
-		public void setName(String name) {
-			this.name = name;
-		}
-
 		public String getAddress() {
 			return address;
 		}
-
-		public void setAddress(String address) {
-			this.address = address;
-		}
-
 		public String getPhoneNum() {
 			return phoneNum;
 		}
-
-		public void setPhoneNum(String phoneNum) {
-			this.phoneNum = phoneNum;
-		}
-		
 		public int getBirth() {
 			return birth;
 		}
 
-		public void setBirth(int birth) {
+		
+		
+		//세터
+		public void setName(String name) {
+			this.name = name;
+		}
+		public void setAddress(String address) {
+			this.address = address;
+		}
+		public void setPhoneNum(String phoneNum) {
+			this.phoneNum = phoneNum;
+		}
+				public void setBirth(int birth) {
 			this.birth = birth;
 		}
 		

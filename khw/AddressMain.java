@@ -32,7 +32,7 @@ public class AddressMain {
 				}
 				break;
 				
-			case 2:
+			case 2: // 동명이인 모두 출력되게 만들어 보기
 				//이름조회 - 이름 입력하면 그 사람 정보만 출력
 				System.out.println("---------------------------");
 				System.out.print("조회할 분의 이름을 입력하세요> ");
