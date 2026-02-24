@@ -18,6 +18,9 @@ public class Student {
 	}
 	
 	
+	
+
+
 	//메소드
 	public int getStuNum() {
 		return stuNum;

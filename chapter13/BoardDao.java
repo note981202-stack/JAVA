@@ -3,6 +3,10 @@ package chapter13;
 import java.util.ArrayList;
 import java.util.List;
 
+import lombok.Data;
+
+@Data
+
 public class BoardDao {
 		List<Board> list = new ArrayList<>();
 	
